@@ -1,0 +1,468 @@
+header {
+  width: 100%;
+  background: #fff;
+}
+header .navWarp {
+  width: 100%;
+  height: 40px;
+  background: #f1f1f1;
+  line-height: 40px;
+}
+header .navWarp .location {
+  float: left;
+  margin-left: 15px;
+  transition: background 0.3s;
+}
+header .navWarp .location span {
+  font-weight: bold;
+  color: #000;
+}
+header .navWarp .location .toggleCity {
+  color: #898989;
+}
+header .navWarp .location img {
+  vertical-align: middle;
+}
+header .navWarp .location:hover {
+  background: #fff;
+}
+header .navWarp nav {
+  float: right;
+  margin-right: 15px;
+  height: 100%;
+}
+header .navWarp nav a {
+  display: inline-block;
+  height: 100%;
+  color: #121212;
+  font-weight: bold;
+  padding: 0 15px;
+  transition: all 0.3s;
+}
+header .navWarp nav a.active {
+  color: #e94840;
+  background: #f1f1f1 !important;
+}
+header .navWarp nav a:hover {
+  background: #fff;
+  color: #e94840;
+}
+header .searchLine {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+}
+header .searchLine h1,
+header .searchLine .search {
+  float: left;
+}
+header .searchLine h1 {
+  margin: 15px 0 0 15px;
+}
+header .searchLine .search {
+  margin: 30px 0 0 55px;
+}
+header .searchLine .search i {
+  position: absolute;
+  left: 370px;
+  top: 3px;
+}
+header .searchLine .search input {
+  float: left;
+  width: 475px;
+  height: 31px;
+  outline: none;
+  border: 2px solid #e94840;
+  border-radius: 5px 0 0 5px;
+  padding-left: 40px;
+}
+header .searchLine .search input::-webkit-input-placeholder {
+  color: #aab2bd;
+  font-size: 14px;
+}
+header .searchLine .search button {
+  float: left;
+  width: 120px;
+  height: 35px;
+  background: #e94840;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+header .searchLine .code {
+  position: absolute;
+  margin-right: 15px;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+}
+#bigWrap {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 2s;
+  background-image: url("../img/banner1.jpg");
+}
+#bigWrap .navList ul li {
+  position: relative;
+  width: 180px;
+  height: 30px;
+  background: #757881;
+  text-align: center;
+  line-height: 30px;
+}
+#bigWrap .navList ul li:hover {
+  background: #60646d;
+}
+#bigWrap .navList ul li a {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#bigWrap .navList ul li img {
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  top: 10px;
+  right: 30px;
+}
+#bigWrap .navList ul li div {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background: #fff;
+}
+#bigWrap .navList ul li div ul {
+  width: 100%;
+  height: 100%;
+}
+#bigWrap .navList ul li div ul li {
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+#bigWrap .navList ul li div ul li a {
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#bigWrap .smallDot {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#bigWrap .smallDot span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+}
+#bigWrap .smallDot span:nth-child(2) {
+  margin: 0 5px;
+}
+#bigWrap .smallDot span.active {
+  background: #ccc;
+}
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6,
+#item7,
+#item8,
+#item9,
+#item10 {
+  margin-top: 50px;
+}
+#item1 .title,
+#item2 .title,
+#item3 .title,
+#item4 .title,
+#item5 .title,
+#item6 .title,
+#item7 .title,
+#item8 .title,
+#item9 .title,
+#item10 .title {
+  font-size: 28px;
+  color: #3d3838;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+}
+#item1 .nav,
+#item2 .nav,
+#item3 .nav,
+#item4 .nav,
+#item5 .nav,
+#item6 .nav,
+#item7 .nav,
+#item8 .nav,
+#item9 .nav,
+#item10 .nav {
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+#item1 .nav .more,
+#item2 .nav .more,
+#item3 .nav .more,
+#item4 .nav .more,
+#item5 .nav .more,
+#item6 .nav .more,
+#item7 .nav .more,
+#item8 .nav .more,
+#item9 .nav .more,
+#item10 .nav .more {
+  position: absolute;
+  color: #898989;
+  font-size: 18px;
+  font-family: '幼圆';
+  top: 0;
+  right: 0;
+  transition: color 0.5s;
+}
+#item1 .nav .more:hover,
+#item2 .nav .more:hover,
+#item3 .nav .more:hover,
+#item4 .nav .more:hover,
+#item5 .nav .more:hover,
+#item6 .nav .more:hover,
+#item7 .nav .more:hover,
+#item8 .nav .more:hover,
+#item9 .nav .more:hover,
+#item10 .nav .more:hover {
+  color: #fb474f;
+}
+#item1 .nav .navList,
+#item2 .nav .navList,
+#item3 .nav .navList,
+#item4 .nav .navList,
+#item5 .nav .navList,
+#item6 .nav .navList,
+#item7 .nav .navList,
+#item8 .nav .navList,
+#item9 .nav .navList,
+#item10 .nav .navList {
+  display: flex;
+}
+#item1 .nav .navList li,
+#item2 .nav .navList li,
+#item3 .nav .navList li,
+#item4 .nav .navList li,
+#item5 .nav .navList li,
+#item6 .nav .navList li,
+#item7 .nav .navList li,
+#item8 .nav .navList li,
+#item9 .nav .navList li,
+#item10 .nav .navList li {
+  margin-right: 10px;
+}
+#item1 .nav .navList li:hover>a,
+#item2 .nav .navList li:hover>a,
+#item3 .nav .navList li:hover>a,
+#item4 .nav .navList li:hover>a,
+#item5 .nav .navList li:hover>a,
+#item6 .nav .navList li:hover>a,
+#item7 .nav .navList li:hover>a,
+#item8 .nav .navList li:hover>a,
+#item9 .nav .navList li:hover>a,
+#item10 .nav .navList li:hover>a {
+  color: #fb474f;
+}
+#item1 .nav .navList li a,
+#item2 .nav .navList li a,
+#item3 .nav .navList li a,
+#item4 .nav .navList li a,
+#item5 .nav .navList li a,
+#item6 .nav .navList li a,
+#item7 .nav .navList li a,
+#item8 .nav .navList li a,
+#item9 .nav .navList li a,
+#item10 .nav .navList li a {
+  font-size: 22px;
+  color: #3d3838;
+  transition: color 0.5s;
+}
+#item1 .item .itemList,
+#item2 .item .itemList,
+#item3 .item .itemList,
+#item4 .item .itemList,
+#item5 .item .itemList,
+#item6 .item .itemList,
+#item7 .item .itemList,
+#item8 .item .itemList,
+#item9 .item .itemList,
+#item10 .item .itemList {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#item1 .item .itemList a,
+#item2 .item .itemList a,
+#item3 .item .itemList a,
+#item4 .item .itemList a,
+#item5 .item .itemList a,
+#item6 .item .itemList a,
+#item7 .item .itemList a,
+#item8 .item .itemList a,
+#item9 .item .itemList a,
+#item10 .item .itemList a {
+  display: block;
+  width: 230px;
+  height: 345px;
+  padding: 8px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+#item1 .item .itemList a:hover,
+#item2 .item .itemList a:hover,
+#item3 .item .itemList a:hover,
+#item4 .item .itemList a:hover,
+#item5 .item .itemList a:hover,
+#item6 .item .itemList a:hover,
+#item7 .item .itemList a:hover,
+#item8 .item .itemList a:hover,
+#item9 .item .itemList a:hover,
+#item10 .item .itemList a:hover {
+  box-shadow: 5px 5px 15px #ccc;
+}
+#item1 .item .itemList a li,
+#item2 .item .itemList a li,
+#item3 .item .itemList a li,
+#item4 .item .itemList a li,
+#item5 .item .itemList a li,
+#item6 .item .itemList a li,
+#item7 .item .itemList a li,
+#item8 .item .itemList a li,
+#item9 .item .itemList a li,
+#item10 .item .itemList a li {
+  width: 100%;
+  height: 100%;
+}
+#item1 .item .itemList a li img,
+#item2 .item .itemList a li img,
+#item3 .item .itemList a li img,
+#item4 .item .itemList a li img,
+#item5 .item .itemList a li img,
+#item6 .item .itemList a li img,
+#item7 .item .itemList a li img,
+#item8 .item .itemList a li img,
+#item9 .item .itemList a li img,
+#item10 .item .itemList a li img {
+  width: 210px;
+  height: 210px;
+  margin-top: 5px;
+}
+#item1 .item .itemList a li .serviceName,
+#item2 .item .itemList a li .serviceName,
+#item3 .item .itemList a li .serviceName,
+#item4 .item .itemList a li .serviceName,
+#item5 .item .itemList a li .serviceName,
+#item6 .item .itemList a li .serviceName,
+#item7 .item .itemList a li .serviceName,
+#item8 .item .itemList a li .serviceName,
+#item9 .item .itemList a li .serviceName,
+#item10 .item .itemList a li .serviceName {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 8px;
+}
+#item1 .item .itemList a li .description,
+#item2 .item .itemList a li .description,
+#item3 .item .itemList a li .description,
+#item4 .item .itemList a li .description,
+#item5 .item .itemList a li .description,
+#item6 .item .itemList a li .description,
+#item7 .item .itemList a li .description,
+#item8 .item .itemList a li .description,
+#item9 .item .itemList a li .description,
+#item10 .item .itemList a li .description {
+  color: #929292;
+  font-size: 13px;
+  margin-top: 10px;
+}
+#item1 .item .itemList a li .priceAndDetail,
+#item2 .item .itemList a li .priceAndDetail,
+#item3 .item .itemList a li .priceAndDetail,
+#item4 .item .itemList a li .priceAndDetail,
+#item5 .item .itemList a li .priceAndDetail,
+#item6 .item .itemList a li .priceAndDetail,
+#item7 .item .itemList a li .priceAndDetail,
+#item8 .item .itemList a li .priceAndDetail,
+#item9 .item .itemList a li .priceAndDetail,
+#item10 .item .itemList a li .priceAndDetail {
+  margin-top: 15px;
+  line-height: 20px;
+}
+#item1 .item .itemList a li .priceAndDetail .price,
+#item2 .item .itemList a li .priceAndDetail .price,
+#item3 .item .itemList a li .priceAndDetail .price,
+#item4 .item .itemList a li .priceAndDetail .price,
+#item5 .item .itemList a li .priceAndDetail .price,
+#item6 .item .itemList a li .priceAndDetail .price,
+#item7 .item .itemList a li .priceAndDetail .price,
+#item8 .item .itemList a li .priceAndDetail .price,
+#item9 .item .itemList a li .priceAndDetail .price,
+#item10 .item .itemList a li .priceAndDetail .price,
+#item1 .item .itemList a li .priceAndDetail .nuit,
+#item2 .item .itemList a li .priceAndDetail .nuit,
+#item3 .item .itemList a li .priceAndDetail .nuit,
+#item4 .item .itemList a li .priceAndDetail .nuit,
+#item5 .item .itemList a li .priceAndDetail .nuit,
+#item6 .item .itemList a li .priceAndDetail .nuit,
+#item7 .item .itemList a li .priceAndDetail .nuit,
+#item8 .item .itemList a li .priceAndDetail .nuit,
+#item9 .item .itemList a li .priceAndDetail .nuit,
+#item10 .item .itemList a li .priceAndDetail .nuit {
+  float: left;
+  font-size: 14px;
+  color: #fb474f;
+  font-weight: bold;
+}
+#item1 .item .itemList a li .priceAndDetail .price,
+#item2 .item .itemList a li .priceAndDetail .price,
+#item3 .item .itemList a li .priceAndDetail .price,
+#item4 .item .itemList a li .priceAndDetail .price,
+#item5 .item .itemList a li .priceAndDetail .price,
+#item6 .item .itemList a li .priceAndDetail .price,
+#item7 .item .itemList a li .priceAndDetail .price,
+#item8 .item .itemList a li .priceAndDetail .price,
+#item9 .item .itemList a li .priceAndDetail .price,
+#item10 .item .itemList a li .priceAndDetail .price {
+  font-size: 20px;
+  margin-left: 5px;
+}
+#item1 .item .itemList a li .priceAndDetail .detail,
+#item2 .item .itemList a li .priceAndDetail .detail,
+#item3 .item .itemList a li .priceAndDetail .detail,
+#item4 .item .itemList a li .priceAndDetail .detail,
+#item5 .item .itemList a li .priceAndDetail .detail,
+#item6 .item .itemList a li .priceAndDetail .detail,
+#item7 .item .itemList a li .priceAndDetail .detail,
+#item8 .item .itemList a li .priceAndDetail .detail,
+#item9 .item .itemList a li .priceAndDetail .detail,
+#item10 .item .itemList a li .priceAndDetail .detail {
+  margin-right: 5px;
+  float: right;
+  width: 76px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  background: #fb474f;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}

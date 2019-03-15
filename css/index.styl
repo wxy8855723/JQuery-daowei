@@ -1,0 +1,242 @@
+header
+  width 100%
+  background #fff
+  .navWarp
+    width 100%
+    height 40px
+    background #f1f1f1
+    line-height 40px
+    .location
+      float left
+      margin-left 15px
+      transition background 0.3s
+      span
+        font-weight bold
+        color #000
+      .toggleCity
+        color #898989
+      img
+        vertical-align middle
+      &:hover
+        background #fff
+    nav
+      float right
+      margin-right 15px
+      height 100%
+      a
+        display inline-block
+        height 100%
+        color #121212
+        font-weight bold
+        padding 0 15px
+        transition all 0.3s
+        &.active
+          color #e94840
+          background #f1f1f1 !important
+        &:hover
+          background #fff
+          color #e94840
+
+
+
+  .searchLine
+    position relative
+    width 100%
+    height 90px
+    line-height 90px
+    h1,.search
+      float left
+    h1
+      margin 15px 0 0 15px
+    .search
+      margin 30px 0 0 55px
+      i
+        position absolute
+        left 370px
+        top 3px
+      input
+        float left
+        width 475px
+        height 31px
+        outline none
+        border 2px solid #e94840
+        border-radius 5px 0 0 5px
+        padding-left 40px
+      input::-webkit-input-placeholder
+        color: #aab2bd
+        font-size: 14px
+      button
+        float left
+        width 120px
+        height 35px
+        background #e94840
+        color #fff
+        outline none
+        border none
+        border-radius 0 5px 5px 0
+    .code
+      position absolute
+      margin-right 15px
+      right 0
+      top 0
+      width 90px
+      height 90px
+
+
+#bigWrap
+  width 100%
+  height 300px
+  overflow hidden
+  background-repeat no-repeat
+  background-size 100% 100%
+  transition all 2s
+  background-image url("../img/banner1.jpg")
+  .navList
+    ul
+      li
+        position relative
+        width 180px
+        height 30px
+        background #757881
+        text-align center
+        line-height 30px
+        &:hover
+          background #60646D
+        a
+          color #fff
+          font-weight bold
+          letter-spacing 2px
+         img
+           position absolute
+           font-size 18px
+           color #fff
+           top 10px
+           right 30px
+         div
+           display none
+           position absolute
+           width 100%
+           height 300px
+           background #fff
+           ul
+             width 100%
+             height 100%
+             li
+              width 180px
+              height 30px
+              text-align center
+              line-height 30px
+              a
+                color #000
+                font-weight bold
+                letter-spacing 2px
+
+
+
+
+  .smallDot
+    position absolute
+    bottom 10px
+    left 50%
+    transform translateX(-50%)
+    span
+      display inline-block
+      width 15px
+      height 15px
+      background #fff
+      border-radius 50%
+      &:nth-child(2)
+        margin 0 5px
+      &.active
+        background  #ccc
+#item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10
+  margin-top 50px
+  .title
+    font-size 28px
+    color #3d3838
+    font-weight bold
+    font-family:"Microsoft YaHei"
+    text-align center
+  .nav
+     position relative
+     margin-top 15px
+     display flex
+     justify-content center
+     .more
+      position absolute
+      color #898989
+      font-size 18px
+      font-family '幼圆'
+      top 0
+      right 0
+      transition color .5s
+      &:hover
+         color #fb474f
+     .navList
+       display flex
+       li
+         margin-right 10px
+         &:hover>a
+           color #fb474f
+         a
+           font-size 22px
+           color #3d3838
+           transition color 0.5s
+
+
+  .item
+    .itemList
+      margin-top 30px
+      display flex
+      justify-content space-between
+      a
+        display block
+        width 230px
+        height 345px
+        padding 8px
+        border 1px solid #eaeaea
+        box-sizing border-box
+        &:hover
+          box-shadow 5px 5px 15px #ccc
+        li
+          width 100%
+          height 100%
+          img
+            width 210px
+            height 210px
+            margin-top 5px
+          .serviceName
+            font-size 16px
+            color #000
+            font-weight bold
+            margin-top 8px
+          .description
+            color #929292
+            font-size 13px
+            margin-top 10px
+          .priceAndDetail
+            margin-top 15px
+            line-height 20px
+            .price,.nuit
+              float left
+              font-size 14px
+              color #fb474f
+              font-weight bold
+            .price
+              font-size 20px
+              margin-left 5px
+            .detail
+              margin-right 5px
+              float right
+              width 76px
+              height 24px
+              text-align center
+              line-height 24px
+              background #fb474f
+              color #fff
+              font-size 14px
+              border-radius 5px
+
+
+
+
