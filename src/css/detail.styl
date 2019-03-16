@@ -1,0 +1,271 @@
+body
+  background #FBF8F8
+  header
+    width 100%
+    background rgba(255,255,255,0.9)
+    &.down
+      position fixed
+      left 0
+      top 0
+      z-index 500
+    .navWarp
+      width 100%
+      height 40px
+      background #f1f1f1
+      line-height 40px
+      .location
+        float left
+        margin-left 15px
+        transition background 0.3s
+        span
+          font-weight bold
+          color #000
+        .toggleCity
+          color #898989
+        img
+          vertical-align middle
+        &:hover
+          background #fff
+      nav
+        float right
+        margin-right 15px
+        height 100%
+        a
+          display inline-block
+          height 100%
+          color #121212
+          font-weight bold
+          padding 0 15px
+          transition all 0.3s
+          &.active
+            color #e94840
+            background #f1f1f1 !important
+          &:hover
+            background #fff
+            color #e94840
+
+
+
+    .searchLine
+      position relative
+      width 100%
+      height 90px
+      line-height 90px
+      h1,.search
+        float left
+      h1
+        margin 15px 0 0 15px
+      .search
+        margin 30px 0 0 55px
+        i
+          position absolute
+          left 370px
+          top 3px
+        input
+          float left
+          width 475px
+          height 31px
+          outline none
+          border 2px solid #e94840
+          border-radius 5px 0 0 5px
+          padding-left 40px
+        input::-webkit-input-placeholder
+          color: #aab2bd
+          font-size: 14px
+        button
+          float left
+          width 120px
+          height 35px
+          background #e94840
+          color #fff
+          outline none
+          border none
+          border-radius 0 5px 5px 0
+      .code
+        position absolute
+        margin-right 15px
+        right 0
+        top 0
+        width 90px
+        height 90px
+
+
+  #content
+    width 100%
+    .titleWrap
+      margin-top 15px
+      width 100%
+      height 140px
+      background #fff
+      line-height 140px
+      .title
+        .left
+          float left
+          p
+            float left
+            font-size 36px
+            font-weight 700
+          .time
+            margin 10px 0 0 15px
+            float left
+            color #929292
+            font-size 14px
+            span
+              margin-right 10px
+        .right
+          float right
+          margin-top 5px
+          ul
+            li
+              font-size: 14px;
+              display: inline-block;
+              width: 100px;
+              text-align: center;
+              line-height: 22px;
+              margin-top: 52px;
+              p
+                display: block;
+                color: #e84b47;
+              span
+                position: relative;
+                bottom: 12px;
+                left: 20px;
+                color: #e5e5e5
+
+    .NavWarp
+      width 100%
+      height 40px
+      background #323434
+      .navList
+        line-height 40px
+        li
+          float left
+          width 140px
+          height 40px
+          text-align center
+          &.active
+            background #424242
+          a
+            color #fff
+            font-size 14px
+
+    .Wrap
+      float left
+      width 960px
+      background #fff
+      margin-top 20px
+      .itemList
+        width 100%
+        background #fff
+        .title
+          line-height 50px
+          font-size 14px
+          border-bottom: 1px solid #e5e5e5
+          margin-left 30px
+          span
+            padding-bottom 12px
+            border-bottom 4px solid #fb474f;
+
+      ul
+        width 960px
+        li
+          width 100%
+          height 200px
+          border-bottom: 1px solid #e5e5e5
+          padding 25px
+          box-sizing border-box
+          &:hover
+            background #F8F8F8
+          a
+            display flex
+            img
+              width 150px
+              height 150px
+            >div
+              margin-left 30px
+              .item
+                font-size 18px
+                color #1d1515
+                margin-top 15px
+              .flowPath
+                 font-size 14px
+                 color #929292
+                 margin-top 30px
+               .price
+                 margin-top 30px
+                 display flex
+                 align-items center
+                 justify-content space-between
+                 p
+                  font-size 30px
+                  color #fc545e
+                  font-weight bold
+                  span
+                    font-size 14px
+                 span
+                  font-size 14px
+    .scan
+      width 230px
+      float right
+      margin-top 20px
+      img
+        margin-bottom 10px
+  footer
+    background #fff
+    margin-top 50px
+    .safeguard
+      margin-top 60px
+      font-family: "微软雅黑"
+      text-align center
+      h2
+        font-size: 30px
+        font-weight: 800
+        span
+          color #fb474f
+          font-weight: 800
+      p
+        color #3d3838
+        font-size 22px
+        margin-top 15px
+      ul
+        display flex
+        justify-content center
+        margin-top 15px
+        li
+          margin-right 15px
+
+
+
+    .city
+      position relative
+      margin-top 70px
+      h3
+        position absolute
+        left 0
+        top 0
+        font-family: " 微软雅黑";
+        font-size: 18px;
+        font-weight bold
+        margin-top 8px
+      ul
+        margin-left 70px
+        display flex
+        flex-wrap wrap
+        li
+          width 100px
+          height 30px
+          margin-top 5px
+          a
+            display block
+            width 100%
+            height 100%
+            color #898989
+            font-size 18px
+            font-weight 200
+            font-family "微软雅黑"
+            text-align center
+            line-height 30px
+    .copyright
+      color #898989
+      margin 20px 0 10px 0
+      font-size 14px

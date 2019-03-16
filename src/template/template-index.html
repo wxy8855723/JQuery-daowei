@@ -1,0 +1,30 @@
+<h2 class="title">{{serviceIndex}}</h2>
+<div class="nav">
+    <ul class="navList">
+        {{each serviceType as value i}}
+        <li>
+            <a href="javascript:;">{{value}}</a>
+        </li>
+        {{/each}}
+    </ul>
+    <span class="more">更多服务></span>
+</div>
+
+<div class="item">
+    <ul class="itemList">
+        {{each shopList as value i}}
+        <a href="javascript:;">
+            <li>
+                <img src="{{value.imgUrl}}" class="imgUrl" alt="">
+                <p class="serviceName">{{value.serviceName}}</p>
+                <p class="description">{{value.description}}</p>
+                <div class="priceAndDetail clearfix">
+                    <div class="price">{{value.price}}</div>
+                    <span class="nuit">元/小时</span>
+                    <div class="detail">查看详情</div>
+                </div>
+            </li>
+        </a>
+        {{/each}}
+    </ul>
+</div>

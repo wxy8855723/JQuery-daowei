@@ -1,6 +1,11 @@
 header
   width 100%
-  background #fff
+  background rgba(255,255,255,0.9)
+  &.down
+    position fixed
+    left 0
+    top 0
+    z-index 500
   .navWarp
     width 100%
     height 40px
@@ -149,6 +154,32 @@ header
         margin 0 5px
       &.active
         background  #ccc
+   .detailCategory
+      display none
+      position absolute
+      left 180px
+      top 0
+      width 180px
+      height 100%
+      background rgba(255,255,255,0.7)
+      #wrap
+        width 100%
+        height 100%
+        .detailCategoryList
+          width 100%
+          height 100%
+          li
+            text-align center
+            font-size 16px
+            width 100%
+            height 30px
+            line-height 30px
+            a
+              font-weight bold
+              color #000
+#itemWrap2,#itemWrap4,#itemWrap6,#itemWrap8,#itemWrap10
+  width 100%
+  background #FBF8F8
 #item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10
   margin-top 50px
   .title
@@ -239,4 +270,83 @@ header
 
 
 
+footer
+  .safeguard
+    margin-top 60px
+    font-family: "微软雅黑"
+    text-align center
+    h2
+      font-size: 30px
+      font-weight: 800
+      span
+        color #fb474f
+        font-weight: 800
+    p
+      color #3d3838
+      font-size 22px
+      margin-top 15px
+    ul
+      display flex
+      justify-content center
+      margin-top 15px
+      li
+        margin-right 15px
+
+
+
+  .city
+    position relative
+    margin-top 70px
+    h3
+      position absolute
+      left 0
+      top 0
+      font-family: " 微软雅黑";
+      font-size: 18px;
+      font-weight bold
+      margin-top 8px
+    ul
+      margin-left 70px
+      display flex
+      flex-wrap wrap
+      li
+        width 100px
+        height 30px
+        margin-top 5px
+        a
+          display block
+          width 100%
+          height 100%
+          color #898989
+          font-size 18px
+          font-weight 200
+          font-family "微软雅黑"
+          text-align center
+          line-height 30px
+.partner
+  margin-top 30px
+  padding-top 30px
+  background #eee
+  h3
+    font-size 18px
+    color #000
+    font-weight bold
+  ul
+    margin-top 20px
+    li
+      width 120px
+      height 60px
+      background #fff
+      float left
+      margin-right 12px
+      img
+        width 100%
+        height 100%
+
+
+
+  p
+    color #898989
+    margin 10px 0 10px 0
+    font-size 14px
 

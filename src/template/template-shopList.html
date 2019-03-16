@@ -1,0 +1,32 @@
+<ul class="shopList">
+        {{each shopList as value i}}
+        <li>
+            {{if i === 0}}
+            <a href="../html/detail.html">
+                <img src="{{value.imgUrl}}" alt="">
+                <div class="title">
+                    <img  class="home" src="../img/home1.png" alt="">
+                    <p>{{value.title}}</p>
+                </div>
+                <div class="footer">
+                    <span class="count">已接单{{value.orderCount}}单</span>
+                    <span class="rating">{{value.positiveRate}}</span>
+                </div>
+            </a>
+            {{else}}
+            <a href="javascript:;">
+                <img src="{{value.imgUrl}}" alt="">
+                <div class="title">
+                    <img  class="home" src="../img/home1.png" alt="">
+                    <p>{{value.title}}</p>
+                </div>
+                <div class="footer">
+                    <span class="count">已接单{{value.orderCount}}单</span>
+                    <span class="rating">{{value.positiveRate}}</span>
+                </div>
+            </a>
+            {{/if}}
+        </li>
+        {{/each}}
+</ul>
+

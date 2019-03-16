@@ -1,0 +1,256 @@
+header {
+  width: 100%;
+  background: rgba(255,255,255,0.9);
+}
+header.down {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 500;
+}
+header .navWarp {
+  width: 100%;
+  height: 40px;
+  background: #f1f1f1;
+  line-height: 40px;
+}
+header .navWarp .location {
+  float: left;
+  margin-left: 15px;
+  transition: background 0.3s;
+}
+header .navWarp .location span {
+  font-weight: bold;
+  color: #000;
+}
+header .navWarp .location .toggleCity {
+  color: #898989;
+}
+header .navWarp .location img {
+  vertical-align: middle;
+}
+header .navWarp .location:hover {
+  background: #fff;
+}
+header .navWarp nav {
+  float: right;
+  margin-right: 15px;
+  height: 100%;
+}
+header .navWarp nav a {
+  display: inline-block;
+  height: 100%;
+  color: #121212;
+  font-weight: bold;
+  padding: 0 15px;
+  transition: all 0.3s;
+}
+header .navWarp nav a.active {
+  color: #e94840;
+  background: #f1f1f1 !important;
+}
+header .navWarp nav a:hover {
+  background: #fff;
+  color: #e94840;
+}
+header .searchLine {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+}
+header .searchLine h1,
+header .searchLine .search {
+  float: left;
+}
+header .searchLine h1 {
+  margin: 15px 0 0 15px;
+}
+header .searchLine .search {
+  margin: 30px 0 0 55px;
+}
+header .searchLine .search i {
+  position: absolute;
+  left: 370px;
+  top: 3px;
+}
+header .searchLine .search input {
+  float: left;
+  width: 475px;
+  height: 31px;
+  outline: none;
+  border: 2px solid #e94840;
+  border-radius: 5px 0 0 5px;
+  padding-left: 40px;
+}
+header .searchLine .search input::-webkit-input-placeholder {
+  color: #aab2bd;
+  font-size: 14px;
+}
+header .searchLine .search button {
+  float: left;
+  width: 120px;
+  height: 35px;
+  background: #e94840;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+header .searchLine .code {
+  position: absolute;
+  margin-right: 15px;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+}
+#content {
+  width: 100%;
+  background: #fbf8f8;
+}
+#content h2 {
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 85px;
+}
+#content #shopListWrap {
+  float: left;
+  padding-top: 90px;
+  width: 970px;
+}
+#content #shopListWrap ul {
+  width: 100%;
+}
+#content #shopListWrap ul li {
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 232px;
+  height: 300px;
+  background: #fff;
+  padding: 8px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+#content #shopListWrap ul li:hover {
+  box-shadow: 5px 5px 15px #ccc;
+}
+#content #shopListWrap ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#content #shopListWrap ul li a img {
+  width: 210px;
+  height: 210px;
+}
+#content #shopListWrap ul li a .title {
+  display: flex;
+  justify-content: start;
+  margin-top: 15px;
+  line-height: 20px;
+}
+#content #shopListWrap ul li a .title p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+#content #shopListWrap ul li a .title .home {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#content #shopListWrap ul li a .footer {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  box-sizing: border-box;
+  padding: 0 3px;
+}
+#content #shopListWrap ul li a .footer span {
+  font-size: 12px;
+  color: #929292;
+}
+#content .enter {
+  margin-top: 90px;
+  float: right;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+#content .enter img {
+  width: 230px;
+  height: 300px;
+}
+#content .enter .App {
+  margin-top: 10px;
+}
+footer .safeguard {
+  margin-top: 60px;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+footer .safeguard h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+footer .safeguard h2 span {
+  color: #fb474f;
+  font-weight: 800;
+}
+footer .safeguard p {
+  color: #3d3838;
+  font-size: 22px;
+  margin-top: 15px;
+}
+footer .safeguard ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+footer .safeguard ul li {
+  margin-right: 15px;
+}
+footer .city {
+  position: relative;
+  margin-top: 70px;
+}
+footer .city h3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: " 微软雅黑";
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+footer .city ul {
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .city ul li {
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+footer .city ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #898989;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "微软雅黑";
+  text-align: center;
+  line-height: 30px;
+}
+footer .copyright {
+  color: #898989;
+  margin: 20px 0 10px 0;
+  font-size: 14px;
+}

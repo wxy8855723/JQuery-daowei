@@ -1,0 +1,327 @@
+body {
+  background: #fbf8f8;
+}
+body header {
+  width: 100%;
+  background: rgba(255,255,255,0.9);
+}
+body header.down {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 500;
+}
+body header .navWarp {
+  width: 100%;
+  height: 40px;
+  background: #f1f1f1;
+  line-height: 40px;
+}
+body header .navWarp .location {
+  float: left;
+  margin-left: 15px;
+  transition: background 0.3s;
+}
+body header .navWarp .location span {
+  font-weight: bold;
+  color: #000;
+}
+body header .navWarp .location .toggleCity {
+  color: #898989;
+}
+body header .navWarp .location img {
+  vertical-align: middle;
+}
+body header .navWarp .location:hover {
+  background: #fff;
+}
+body header .navWarp nav {
+  float: right;
+  margin-right: 15px;
+  height: 100%;
+}
+body header .navWarp nav a {
+  display: inline-block;
+  height: 100%;
+  color: #121212;
+  font-weight: bold;
+  padding: 0 15px;
+  transition: all 0.3s;
+}
+body header .navWarp nav a.active {
+  color: #e94840;
+  background: #f1f1f1 !important;
+}
+body header .navWarp nav a:hover {
+  background: #fff;
+  color: #e94840;
+}
+body header .searchLine {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+}
+body header .searchLine h1,
+body header .searchLine .search {
+  float: left;
+}
+body header .searchLine h1 {
+  margin: 15px 0 0 15px;
+}
+body header .searchLine .search {
+  margin: 30px 0 0 55px;
+}
+body header .searchLine .search i {
+  position: absolute;
+  left: 370px;
+  top: 3px;
+}
+body header .searchLine .search input {
+  float: left;
+  width: 475px;
+  height: 31px;
+  outline: none;
+  border: 2px solid #e94840;
+  border-radius: 5px 0 0 5px;
+  padding-left: 40px;
+}
+body header .searchLine .search input::-webkit-input-placeholder {
+  color: #aab2bd;
+  font-size: 14px;
+}
+body header .searchLine .search button {
+  float: left;
+  width: 120px;
+  height: 35px;
+  background: #e94840;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+body header .searchLine .code {
+  position: absolute;
+  margin-right: 15px;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+}
+body #content {
+  width: 100%;
+}
+body #content .titleWrap {
+  margin-top: 15px;
+  width: 100%;
+  height: 140px;
+  background: #fff;
+  line-height: 140px;
+}
+body #content .titleWrap .title .left {
+  float: left;
+}
+body #content .titleWrap .title .left p {
+  float: left;
+  font-size: 36px;
+  font-weight: 700;
+}
+body #content .titleWrap .title .left .time {
+  margin: 10px 0 0 15px;
+  float: left;
+  color: #929292;
+  font-size: 14px;
+}
+body #content .titleWrap .title .left .time span {
+  margin-right: 10px;
+}
+body #content .titleWrap .title .right {
+  float: right;
+  margin-top: 5px;
+}
+body #content .titleWrap .title .right ul li {
+  font-size: 14px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 52px;
+}
+body #content .titleWrap .title .right ul li p {
+  display: block;
+  color: #e84b47;
+}
+body #content .titleWrap .title .right ul li span {
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  color: #e5e5e5;
+}
+body #content .NavWarp {
+  width: 100%;
+  height: 40px;
+  background: #323434;
+}
+body #content .NavWarp .navList {
+  line-height: 40px;
+}
+body #content .NavWarp .navList li {
+  float: left;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+}
+body #content .NavWarp .navList li.active {
+  background: #424242;
+}
+body #content .NavWarp .navList li a {
+  color: #fff;
+  font-size: 14px;
+}
+body #content .Wrap {
+  float: left;
+  width: 960px;
+  background: #fff;
+  margin-top: 20px;
+}
+body #content .Wrap .itemList {
+  width: 100%;
+  background: #fff;
+}
+body #content .Wrap .itemList .title {
+  line-height: 50px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 30px;
+}
+body #content .Wrap .itemList .title span {
+  padding-bottom: 12px;
+  border-bottom: 4px solid #fb474f;
+}
+body #content .Wrap ul {
+  width: 960px;
+}
+body #content .Wrap ul li {
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px;
+  box-sizing: border-box;
+}
+body #content .Wrap ul li:hover {
+  background: #f8f8f8;
+}
+body #content .Wrap ul li a {
+  display: flex;
+}
+body #content .Wrap ul li a img {
+  width: 150px;
+  height: 150px;
+}
+body #content .Wrap ul li a >div {
+  margin-left: 30px;
+}
+body #content .Wrap ul li a >div .item {
+  font-size: 18px;
+  color: #1d1515;
+  margin-top: 15px;
+}
+body #content .Wrap ul li a >div .flowPath {
+  font-size: 14px;
+  color: #929292;
+  margin-top: 30px;
+}
+body #content .Wrap ul li a >div .price {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body #content .Wrap ul li a >div .price p {
+  font-size: 30px;
+  color: #fc545e;
+  font-weight: bold;
+}
+body #content .Wrap ul li a >div .price p span {
+  font-size: 14px;
+}
+body #content .Wrap ul li a >div .price span {
+  font-size: 14px;
+}
+body #content .scan {
+  width: 230px;
+  float: right;
+  margin-top: 20px;
+}
+body #content .scan img {
+  margin-bottom: 10px;
+}
+body footer {
+  background: #fff;
+  margin-top: 50px;
+}
+body footer .safeguard {
+  margin-top: 60px;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+body footer .safeguard h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+body footer .safeguard h2 span {
+  color: #fb474f;
+  font-weight: 800;
+}
+body footer .safeguard p {
+  color: #3d3838;
+  font-size: 22px;
+  margin-top: 15px;
+}
+body footer .safeguard ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+body footer .safeguard ul li {
+  margin-right: 15px;
+}
+body footer .city {
+  position: relative;
+  margin-top: 70px;
+}
+body footer .city h3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: " 微软雅黑";
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+body footer .city ul {
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body footer .city ul li {
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+body footer .city ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #898989;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "微软雅黑";
+  text-align: center;
+  line-height: 30px;
+}
+body footer .copyright {
+  color: #898989;
+  margin: 20px 0 10px 0;
+  font-size: 14px;
+}

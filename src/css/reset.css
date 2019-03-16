@@ -33,10 +33,6 @@ body {
   line-height: 1;
 }
 
-/*html,body{*/
-  /*overflow:hidden;*/
-  /*overflow-y:auto;*/
-/*}*/
 
 blockquote, q {
   quotes: none;
@@ -63,10 +59,10 @@ li {
   list-style: none;
 }
 
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
+/*::-webkit-scrollbar {*/
+  /*width: 5px;*/
+  /*height: 5px;*/
+/*}*/
 
 ::-webkit-scrollbar-track-piece {
   background-color: rgba(0, 0, 0, 0.2);
@@ -110,7 +106,7 @@ body {
 
 .typearea{
   width: 1200px;
-  height: 100%;
   margin: 0 auto;
+  overflow: hidden;
   position: relative;
 }

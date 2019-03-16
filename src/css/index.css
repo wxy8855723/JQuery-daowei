@@ -1,6 +1,12 @@
 header {
   width: 100%;
-  background: #fff;
+  background: rgba(255,255,255,0.9);
+}
+header.down {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 500;
 }
 header .navWarp {
   width: 100%;
@@ -171,6 +177,42 @@ header .searchLine .code {
 }
 #bigWrap .smallDot span.active {
   background: #ccc;
+}
+#bigWrap .detailCategory {
+  display: none;
+  position: absolute;
+  left: 180px;
+  top: 0;
+  width: 180px;
+  height: 100%;
+  background: rgba(255,255,255,0.7);
+}
+#bigWrap .detailCategory #wrap {
+  width: 100%;
+  height: 100%;
+}
+#bigWrap .detailCategory #wrap .detailCategoryList {
+  width: 100%;
+  height: 100%;
+}
+#bigWrap .detailCategory #wrap .detailCategoryList li {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+#bigWrap .detailCategory #wrap .detailCategoryList li a {
+  font-weight: bold;
+  color: #000;
+}
+#itemWrap2,
+#itemWrap4,
+#itemWrap6,
+#itemWrap8,
+#itemWrap10 {
+  width: 100%;
+  background: #fbf8f8;
 }
 #item1,
 #item2,
@@ -465,4 +507,93 @@ header .searchLine .code {
   color: #fff;
   font-size: 14px;
   border-radius: 5px;
+}
+footer .safeguard {
+  margin-top: 60px;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+footer .safeguard h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+footer .safeguard h2 span {
+  color: #fb474f;
+  font-weight: 800;
+}
+footer .safeguard p {
+  color: #3d3838;
+  font-size: 22px;
+  margin-top: 15px;
+}
+footer .safeguard ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+footer .safeguard ul li {
+  margin-right: 15px;
+}
+footer .city {
+  position: relative;
+  margin-top: 70px;
+}
+footer .city h3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: " 微软雅黑";
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+footer .city ul {
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .city ul li {
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+footer .city ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #898989;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "微软雅黑";
+  text-align: center;
+  line-height: 30px;
+}
+.partner {
+  margin-top: 30px;
+  padding-top: 30px;
+  background: #eee;
+}
+.partner h3 {
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+.partner ul {
+  margin-top: 20px;
+}
+.partner ul li {
+  width: 120px;
+  height: 60px;
+  background: #fff;
+  float: left;
+  margin-right: 12px;
+}
+.partner ul li img {
+  width: 100%;
+  height: 100%;
+}
+.partner p {
+  color: #898989;
+  margin: 10px 0 10px 0;
+  font-size: 14px;
 }
