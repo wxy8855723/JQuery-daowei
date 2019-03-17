@@ -1,0 +1,14 @@
+{{each firstPage as value i}}
+    <div class="commentList">
+        <img  class="photo" src="{{value.iconUrl}}" alt="">
+        <div class="content">
+            <p class="name">{{value.nick}}</p>
+            <p class="starAndTime"><span>{{value.star}}</span><span>{{value.createtime}}</span></p>
+            <p class="commentConent">{{value.comment}}</p>
+            <div class="city">
+                <img src="../img/position.jpg" alt="">
+                <p><span>{{value.city}}</span><span>{{value.area}}</span></p>
+            </div>
+        </div>
+    </div>
+{{/each}}

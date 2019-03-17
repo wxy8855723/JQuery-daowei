@@ -181,7 +181,6 @@ body #content .NavWarp .navList li a {
 body #content .Wrap {
   float: left;
   width: 960px;
-  background: #fff;
   margin-top: 20px;
 }
 body #content .Wrap .itemList {
@@ -190,7 +189,7 @@ body #content .Wrap .itemList {
 }
 body #content .Wrap .itemList .title {
   line-height: 50px;
-  font-size: 14px;
+  font-size: 16px;
   border-bottom: 1px solid #e5e5e5;
   margin-left: 30px;
 }
@@ -200,6 +199,7 @@ body #content .Wrap .itemList .title span {
 }
 body #content .Wrap ul {
   width: 960px;
+  background: #fff;
 }
 body #content .Wrap ul li {
   width: 100%;
@@ -247,6 +247,142 @@ body #content .Wrap ul li a >div .price p span {
 }
 body #content .Wrap ul li a >div .price span {
   font-size: 14px;
+}
+body #content .Wrap .shopIntor {
+  width: 960px;
+  background: #fff;
+  margin-top: 70px;
+}
+body #content .Wrap .shopIntor .title {
+  line-height: 50px;
+  font-size: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 30px;
+}
+body #content .Wrap .shopIntor .title span {
+  padding-bottom: 12px;
+  border-bottom: 4px solid #fb474f;
+}
+body #content .Wrap .shopIntor .content div {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 20px 0 0 30px;
+}
+body #content .Wrap .shopIntor .content div img {
+  width: 48px;
+  height: 18px;
+}
+body #content .Wrap .shopIntor .content .profile {
+  display: block;
+  margin: 20px 0 0 30px;
+  line-height: 28px;
+  font-size: 16px;
+}
+body #content .Wrap .comment {
+  width: 960px;
+  background: #fff;
+  margin-top: 20px;
+}
+body #content .Wrap .comment .title {
+  line-height: 50px;
+  font-size: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 30px;
+}
+body #content .Wrap .comment .title .left {
+  padding-bottom: 12px;
+  border-bottom: 4px solid #fb474f;
+}
+body #content .Wrap .comment .title .right {
+  font-size: 14px;
+  margin-left: 15px;
+}
+body #content .Wrap .comment #commentListWrap {
+  width: 100%;
+}
+body #content .Wrap .comment #commentListWrap .commentList {
+  width: 100%;
+  height: 158px;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  padding: 20px 0 0 30px;
+}
+body #content .Wrap .comment #commentListWrap .commentList .photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+body #content .Wrap .comment #commentListWrap .commentList .content {
+  margin-left: 30px;
+}
+body #content .Wrap .comment #commentListWrap .commentList .name {
+  font-size: 14px;
+  line-height: 28px;
+}
+body #content .Wrap .comment #commentListWrap .commentList .starAndTime {
+  line-height: 28px;
+  font-size: 14px;
+}
+body #content .Wrap .comment #commentListWrap .commentList .starAndTime span:nth-child(1) {
+  color: #f00;
+  margin-right: 20px;
+}
+body #content .Wrap .comment #commentListWrap .commentList .commentConent {
+  font-size: 16px;
+  line-height: 26px;
+}
+body #content .Wrap .comment #commentListWrap .commentList .city {
+  height: 40px;
+  display: flex;
+  line-height: 40px;
+  align-items: center;
+}
+body #content .Wrap .comment #commentListWrap .commentList .city img {
+  width: 9px;
+  height: 11px;
+  margin-right: 10px;
+}
+body #content .Wrap .comment #commentListWrap .commentList .city span {
+  margin-right: 10px;
+}
+body #content .Wrap .comment #pagingDevice {
+  position: relative;
+  width: 100%;
+  height: 152px;
+}
+body #content .Wrap .comment #pagingDevice .pagingList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 76px;
+}
+body #content .Wrap .comment #pagingDevice .pagingList div {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e5e5e5;
+  margin-left: 5px;
+  cursor: pointer;
+}
+body #content .Wrap .comment #pagingDevice .pagingList div.active {
+  background: #fe454a;
+  color: #fff;
+}
+body #content .Wrap .comment #pagingDevice .pagingList div a {
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
+body #content .Wrap .comment #pagingDevice .pagingList .left,
+body #content .Wrap .comment #pagingDevice .pagingList .right {
+  text-align: center;
+  width: 80px;
+  line-height: 30px;
 }
 body #content .scan {
   width: 230px;
